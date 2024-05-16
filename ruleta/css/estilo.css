@@ -1,0 +1,35 @@
+
+body, h1, h2, h3, h4, h5, h6, p, img, ul, li, figure, figcaption, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center; 
+    background-image: url('http://127.0.0.1:5500/img/IMG_69945.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center; 
+}
+
+img {
+    transform: rotate(36deg); 
+}
+.vara{
+    height: 70px;
+    width: 15px;
+    background-color: #aaa;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid black;
+    border-top: 5px solid black;
+    z-index: 1000;
+}
+img{
+    z-index: 100;
+    transition: all 5s;
+}
